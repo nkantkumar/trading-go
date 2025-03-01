@@ -1,0 +1,2 @@
+module trading-go
+
