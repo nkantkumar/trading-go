@@ -1,0 +1,9 @@
+CREATE TABLE orders (
+    id UUID PRIMARY KEY,
+    user_id VARCHAR(50),
+    symbol VARCHAR(10),
+    quantity INT,
+    price DECIMAL(10,2),
+    type VARCHAR(4),
+    timestamp TIMESTAMP
+);
