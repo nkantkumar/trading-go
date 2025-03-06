@@ -1,5 +1,7 @@
 package order
 
+import "time"
+
 type Service struct {
 	repo Repository
 }
